@@ -1,0 +1,70 @@
+body{
+    margin: 0; padding-top: 800px;
+    text-align: center;
+}
+#welcome{
+    position: absolute; overflow: hidden; height: 800px; color: #FFFFFF; left: 0; top: 0; bottom: 0; right: 0; opacity: 0.83;
+    background:linear-gradient(rgb(193, 44, 212) 0%,pink 100%);
+    display: table;
+    width:100%;
+    height:800px;
+}
+.profile{
+    border-radius:50% ;
+    width:175px;
+    margin-bottom: 50px;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top:0px;
+     margin-top:0;
+     width:100%;
+     background:rgb(111, 45, 233);
+    z-index: 10;
+    cursor:pointer;
+}
+.links{
+    display: inline;
+     font-size: 30px;
+     font-family: 'Courier New', Courier, monospace;
+     color: rgb(194, 179, 179);
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-right:30px;
+    padding-left:30px;
+      font-weight:bold;
+       text-shadow: 2px 2px grey ;
+}
+      .links:hover{
+       background-color: darkcyan;
+       font-size:35px;
+       text-decoration: underline;
+      }
+      .drc:hover{
+          color:blue;
+      }
+      h1{
+        font-family: 'Style Script', cursive;
+      }
+#contact iframe{
+   width:100%;
+}
+#contact{
+    background:linear-gradient(rgb(181, 32, 201) 0%,pink 100%);
+}
+#books{
+    background:linear-gradient(rgb(181, 32, 201) 0%,pink 100%);
+}
+#hobby{
+    background:linear-gradient(rgb(181, 32, 201) 0%,pink 100%);
+}
+#video{
+    background:linear-gradient(rgb(181, 32, 201) 0%,pink 100%);
+}
+.contact1{
+    color:crimson;
+}
+.inner{
+    vertical-align:middle;
+}
